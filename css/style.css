@@ -10,10 +10,11 @@
 }
 
 /*HEADER*/
-.intro{
-    
+.intro{    
+    background: url('../img/bg-hero-desktop.svg') no-repeat;
     background-color: #EDFBFE;  
-    /*background: url("../img/bg-hero-desktop.svg'") no-repeat; */
+    padding-bottom: 40px;
+    
 }
 
 .nav{
@@ -24,6 +25,8 @@
 
 .menu{
     margin: 20px 60px;
+    
+    
 }
 
 .menu button{
@@ -50,6 +53,7 @@ h1{
 }
 
 .info{
+    
     display: flex;
     flex-wrap: nowrap;
     margin: 20px 60px;
@@ -57,6 +61,7 @@ h1{
 }
 
 .descricao{
+    
     margin: 0 auto;
     flex: 1;
     line-height: 1.5em;
@@ -123,6 +128,7 @@ h1{
 }
 
 .conteudo p{
+    color: #797979;
     line-height: 20px;
 }
 
@@ -172,47 +178,67 @@ h1{
 
 /*FOOTER*/
 .rodape{
-    
     z-index: 0;
     margin-top: -60px;
     padding-top: 70px;
     background-color: #00252e;
-    color: #fff;
-    
-}
-.conteudo-footer{   
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+    color: #fff;    
 }
 
-.info{
+.logo-footer{    
+    margin: 20px 140px;
+}
+
+.conteudo-footer{   
+    max-width: 1100px;
+    margin: 0 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between; 
+}
+
+.info-footer{    
     flex: 1;
     display: flex;
-    flex-wrap: wrap;        
+    flex-wrap: wrap; 
+    margin-right: 50px;  
 }
 
 .conteudo-info{
-    margin-bottom: 20px;
+    margin-bottom: 20px;       
 }
 
-.conteudo-info img{
-    float: left;
+.conteudo-info img{    
     margin-right: 10px;
 }
 
-.conteudo-info p {
-    float: right;
+.conteudo-info span {
+    
 }
 
-.info ol li{
-    display:block;
+.info-footer ol li{    
     list-style-type: none;
-    color: #fff;
+    column-width: 70px;
+    column-count: 2;
+    margin-bottom: 10px;
 }
 
-.info ol li:nth-child(odd) {
-    float:left;
-  }
+.info-footer ol li:nth-child(odd) {
+    float:left;   
+}
+
+.info-copy{
+    padding-bottom: 30px;
+    margin: 0 60px;
+    text-align: right;
+}
+
+.info-footer .rede-social{
+    margin-left: 10px;
+}
+
+.info-footer .rede-social img{
+    width: 30px;
+}
 
