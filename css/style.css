@@ -186,12 +186,12 @@ h1{
 }
 
 .logo-footer{    
-    margin: 20px 140px;
+    margin: 20px 150px;
 }
 
 .conteudo-footer{   
     max-width: 1100px;
-    margin: 0 140px;
+    margin: 0 150px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -202,19 +202,22 @@ h1{
     flex: 1;
     display: flex;
     flex-wrap: wrap; 
-    margin-right: 50px;  
+    margin-right: 50px;      
 }
 
 .conteudo-info{
-    margin-bottom: 20px;       
+    margin-bottom: 20px;  
+    width: 315px;     
 }
 
-.conteudo-info img{    
+.conteudo-info img{
+    display: table-cell;    
     margin-right: 10px;
+    float: left;
 }
 
 .conteudo-info span {
-    
+    display: table-cell;        
 }
 
 .info-footer ol li{    
